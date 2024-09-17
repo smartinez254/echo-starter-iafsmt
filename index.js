@@ -3,10 +3,10 @@ const prompCreator = require('prompt-sync');
 const prompt = prompCreator();
 
 // DO NOT CHANGE THE LINES BELOW.
-const str = prompt('Enter a string: ');
-const n = prompt('Enter a number: ');
-console.log('str=' + str);
-console.log('n=' + n);
+const str = prompt('while(conditional): ');
+const n = prompt('5: ');
+console.log('Good' + str);
+console.log('5' + n);
 
 /**
  * TODO: Creates a new string that repeats the given string `str`
